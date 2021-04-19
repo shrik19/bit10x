@@ -1,0 +1,361 @@
+/* Desktop Layout */
+body{
+	overflow-x:hidden;
+}
+.main-menu-area{
+	display:block;
+}
+.main-mobile-menu{
+	display:none;
+}
+.header-logo{
+	display:block;
+}
+.about-text2 p {
+  color: #fff !important;
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.main-menu-area{
+	display:block;
+	text-align:left;
+}
+.main-mobile-menu{
+	display:none;
+}
+.mobile-nav{
+	display:none;
+}
+.mean-container .mean-bar {
+    display: none;
+}
+.main-menu-area ul li {
+	display: inline-block;
+	padding-left: 16px;
+	position: relative;
+}
+.header-logo img{
+	display:block;
+}
+.header-nav li a {
+    font-size: 14px;
+}
+.banner-section {
+	height: auto;
+	padding-bottom: 120px;
+	position: relative;
+}
+.banner-section2 {
+	height: auto;
+	position: relative;
+}
+.banner-text {
+    margin-top: 200px;
+}
+.banner-img img {
+	margin-top: 100px;
+	max-width: 100%;
+}
+.roadmap-wrapper {
+	left: 29px;
+	margin: 0 auto;
+	right: 0;
+	width: 80%;
+}
+.team-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.team-dark-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.team-heading p {
+   padding-bottom:80px;
+}
+.team-items {
+    margin-bottom: 25px;
+}
+.team-items .overlay {
+    top: 77%;
+}
+.team-items:hover .overlay {
+    top: 60%;
+}
+.reviews-content {
+    font-size: 15px;
+}
+.contact-wrapper {
+    margin-left: 0;
+}
+.blog-posts p.tag {
+	margin-bottom:21px;
+	padding-top: 3px;
+}
+.blog-posts p.tag a {
+  float: none;
+  padding-left: 15px;
+}
+.footer-contact p {
+    font-size: 14px;
+}
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.main-menu-area{
+	display:none;
+}
+.main-mobile-menu{
+	display:block;
+}
+.header-logo{
+	display:none;
+}
+.mean-bar img{
+	padding-left:5px;
+	padding-top:5px;
+}
+.mean-container .mean-bar {
+    position: fixed !important;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    padding: 5px 12px !important;
+}
+.banner-section {
+	height: auto;
+	padding-bottom: 170px;
+	position: relative;
+}
+.banner-section2 {
+	height: auto;
+	position: relative;
+}
+.banner-text {
+    margin-top: 200px;
+}
+.banner-img img {
+	margin-top: 100px;
+	max-width: 100%;
+}
+.about-section2 {
+  height: auto;
+  padding-bottom: 100px;
+}
+.about-heading p {
+  font-size: 15px;
+}
+.distribution-img img{
+	max-width:100%;
+}
+.roadmap-wrapper {
+    display: none;
+}
+.service-heading p {
+  font-size: 15px;
+}
+.currency-heading p {
+  font-size: 15px;
+}
+.team-heading p {
+  font-size: 15px;
+  padding-bottom:80px;
+}
+.reviews-heading p {
+  font-size: 15px;
+}
+.blog-heading p {
+  font-size: 15px;
+}
+.faq-heading p {
+  font-size: 15px;
+}
+.contact-heading p {
+  font-size: 15px;
+}
+.counter-section {
+  height: auto;
+  padding-bottom: 100px;
+  padding-top: 90px;
+}
+.counter-dark-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 90px;
+}
+.counter-items {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.team-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.team-dark-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.team-items {
+    margin-bottom: 25px;
+}
+.team-items .overlay {
+    top: 77%;
+}
+.team-items:hover .overlay {
+    top: 60%;
+}
+.reviews-section {
+  height: auto;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+.reviews-map{
+	display:none;
+}
+.reviews-content {
+    font-size: 14px;
+}
+.contact-wrapper {
+    margin-left: 0;
+}
+.blog-posts p.tag {
+	margin-bottom: 21px;
+	padding-top: 3px;
+}
+.blog-posts p.tag a {
+  float: none;
+  padding-left: 15px;
+}
+.footer-section {
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+.footer-nav h5 {
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+.footer-contact p {
+    font-size: 16px;
+}
+}
+
+/* Wide Mobile Layout: */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.main-menu-area{
+	display:none;
+}
+.main-mobile-menu{
+	display:block;
+}
+.header-logo{
+	display:none;
+}
+.mean-container .mean-bar {
+    position: fixed !important;
+}
+.mean-container .mean-nav ul li a.mean-expand {
+    padding: 5px 12px !important;
+}
+.banner-section {
+	height: auto;
+	padding-bottom: 335px;
+	position: relative;
+}
+.banner-section2 {
+	height: auto;
+	position: relative;
+}
+.banner-text {
+    margin-top: 200px;
+}
+.banner-img img {
+	margin-top: 100px;
+	max-width: 100%;
+}
+.about-section2 {
+	height: auto;
+	padding-bottom: 100px;
+}
+.distribution-img img{
+	max-width:100%;
+}
+.roadmap-wrapper {
+    display: none;
+}
+.counter-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 90px;
+}
+.counter-dark-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 90px;
+}
+.counter-items {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.team-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.team-dark-section {
+	height: auto;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.team-items {
+    margin-bottom: 25px;
+}
+.team-items .overlay {
+    top: 85%;
+}
+.team-items:hover .overlay {
+    top: 75%;
+}
+.reviews-section {
+	height: auto;
+	padding-top: 90px;
+	padding-bottom: 80px;
+}
+.reviews-map{
+	display:none;
+}
+.reviews-content {
+    font-size: 14px;
+}
+.contact-wrapper {
+    margin-left: 0;
+}
+.blog-posts p.tag {
+	margin-bottom: 21px;
+	padding-top: 3px;
+}
+.blog-posts p.tag a {
+	float: none;
+	padding-left: 15px;
+}
+.footer-section {
+	height: auto;
+	padding-bottom: 50px;
+	padding-top: 100px;
+}
+.footer-nav h5 {
+	padding-bottom: 10px;
+	padding-top: 25px;
+}
+.footer-contact p {
+    font-size: 16px;
+}
+}
