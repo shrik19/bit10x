@@ -94,3 +94,6 @@ $route['admin/useredit/(:any)']             = "user/useredit/$1";
 $route['admin/userdelete/(:any)']             = "user/userdelete/$1";
 $route['admin/usersave']['post']            = "user/usersave";
 
+$route['admin/order'] 				        = 'order/index';
+$route['admin/deleteOrder/(:any)']             = "order/deleteOrder/$1";
+$route['admin/CoinListing'] 				        = 'order/CoinListing';
